@@ -15,6 +15,11 @@ from sklearn.linear_model import LinearRegression
 from sklearn.compose import ColumnTransformer
 import graphviz
 
+# This program is made centrally with Polars, professor said if it gets changed to Pandas it can ve more valuable for presenting it.
+# I can also make my own code and it will get more value but I am also allowed to modify this code.
+# I have created already a new code so I think I can make my own code, and if I see it gets so much complicated then maybe I switch to this code.
+
+
 warnings.filterwarnings("ignore")
 os.makedirs("plots", exist_ok=True)
 wd_data = "dataset"
